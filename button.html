@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is for practice</title>
+        <style>
+            .subscribe-button{
+                background-color: rgb(189, 2, 2);
+                color: white;
+                border: none;
+                height: 30px;
+                width: 100px;
+                border-radius: 7px;
+                cursor: pointer;
+                margin-left: 5px;
+                margin-right: 6px;
+                transition: opacity 0.15s;
+            }
+            .subscribe-button:hover{
+                opacity: 0.8;
+            }
+            .subscribe-button:active{
+                opacity: 1;
+            }
+            .join-button{
+                border-color: rgb(65, 65, 230);
+                color: rgb(65, 65, 230);
+                border-radius: 2px;
+                border-style: solid;
+                font-weight: bold;
+                width: 80px;
+                height: 30px;
+                /* For even height and width we use padding and for moving the buttons left or right we use margin */
+                cursor: pointer;
+                transition: background-color 0.14s , color 0.14s;
+            }
+            .join-button:hover{
+                background-color: rgb(65, 65, 230);
+                color: white;
+                opacity: 0.8;
+                box-shadow: 2px 2px 5px rgb(50, 50, 228);
+            }
+            .join-button:active{
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="subscribe-button">
+            SUBSCRIBE
+        </button>
+        <button class="join-button">
+            JOIN 
+        </button>
+    </body>
+</html>
+

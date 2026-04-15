@@ -1,0 +1,36 @@
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.search-bar{
+    width: 70%;
+    margin-left: 8px;
+    border: none;
+    font-size: large;
+    height: 35px;
+    vertical-align:  middle;
+    margin-top: 0;
+}
+.confirm{
+    vertical-align: middle;
+    margin-left: 50px;
+    width: 85px;
+    height: 40px;
+    border: none;
+    background-color: rgb(81, 167, 242);
+    color: white;
+    font-size: large;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.confirm:hover{
+    box-shadow: 3px 3px 15px rgb(0, 136, 255);
+    
+}
+.confirm:active{
+    background-color: rgb(0, 157, 255);
+    
+}
