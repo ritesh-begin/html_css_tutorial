@@ -1,0 +1,33 @@
+
+.thumbnail-images{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.thumbnail-description{
+    display: grid;
+    grid-template-columns:50px 1fr ;
+}
+.channel-image{
+
+    width: 40px;
+    border-radius: 30px;
+}
+.channel-description{
+    line-height: 21px;
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 30px;
+    
+}
+.headline{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.channel-name,
+.channel-fame{
+    color:gray;
+    font-size: small;
+}
